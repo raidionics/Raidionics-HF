@@ -5,7 +5,7 @@ from skimage.measure import marching_cubes
 
 
 def load_to_numpy(data_path):
-    if type(data_path) != str:
+    if type(data_path) is not str:
         data_path = data_path.name
 
     image = nib.load(data_path)
@@ -27,7 +27,7 @@ def load_to_numpy(data_path):
 
 
 def load_pred_volume_to_numpy(data_path):
-    if type(data_path) != str:
+    if type(data_path) is not str:
         data_path = data_path.name
 
     image = nib.load(data_path)
