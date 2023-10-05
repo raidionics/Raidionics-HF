@@ -1,4 +1,4 @@
 #!/bin/bash
-isort --sl demo/src/ demo/app.py
-black --line-length 80 demo/src/ demo/app.py
-flake8 demo/src/ demo/app.py
+isort --sl src/ app.py
+black --line-length 80 src/ app.py
+flake8 src/ app.py

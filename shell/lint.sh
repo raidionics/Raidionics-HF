@@ -1,19 +1,19 @@
 #!/bin/bash
-isort --check --sl -c demo/src/ demo/app.py
+isort --check --sl -c src/ app.py
 if ! [ $? -eq 0 ]
 then
   echo "Please run \"sh shell/format.sh\" to format the code."
   exit 1
 fi
 echo "no issues with isort"
-flake8 demo/src/ demo/app.py
+flake8 src/ app.py
 if ! [ $? -eq 0 ]
 then
   echo "Please fix the code style issue."
   exit 1
 fi
 echo "no issues with flake8"
-black --check --line-length 80 demo/src/ demo/app.py
+black --check --line-length 80 src/ app.py
 if ! [ $? -eq 0 ]
 then
   echo "Please run \"sh shell/format.sh\" to format the code."
