@@ -47,10 +47,10 @@ ENV HOME=/home/user \
     PATH=/home/user/.local/bin:$PATH
 
 # Set the working directory to the user's home directory
-WORKDIR $HOME
+WORKDIR $HOME/app
 
 # Copy the current directory contents into the container at $HOME/app setting the owner to the user
-COPY --chown=user . $HOME
+COPY --chown=user . $HOME/app
 
 # Download pretrained models
 RUN mkdir -p resources/models/
