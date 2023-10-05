@@ -9,5 +9,6 @@ resources/
 *.zip
 *log.csv
 *.ini
+*.png
 gradio_cached_examples/
 .idea/

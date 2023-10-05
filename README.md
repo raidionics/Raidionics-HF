@@ -30,9 +30,7 @@ Raidionics is an open-source, free-to-use desktop application for pre- and posto
 
 ## [Demo](https://github.com/raidionics/RaidionicsHF#demo) <a target="_blank" href="https://huggingface.co/spaces/dbouget/raidionics"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a>
 
-To access the live demo, click on the `Hugging Face` badge above. Below is a snapshot of the current state of the demo app.
-
-<img width="1800" alt="Screenshot 2023-10-04 at 19 10 23" src="https://github.com/raidionics/AeroPath/assets/29090665/8777945b-1c9f-4345-87d9-c530d28cc5ce">
+To access the live demo, click on the `Hugging Face` badge above.
 
 ## [Development](https://github.com/raidionics/RaidionicsHF#development)
 
