@@ -3,8 +3,8 @@ import os
 import gradio as gr
 
 from .inference import run_model
-from .utils import load_to_numpy
 from .utils import load_pred_volume_to_numpy
+from .utils import load_to_numpy
 from .utils import nifti_to_glb
 
 
