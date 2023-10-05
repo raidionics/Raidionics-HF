@@ -1,0 +1,13 @@
+venv/
+*__pycache__/
+resources/
+*.DS_Store
+*.nii
+*.nii.gz
+*.nrrd
+*.obj
+*.zip
+*log.csv
+*.ini
+gradio_cached_examples/
+.idea/
