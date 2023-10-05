@@ -57,9 +57,9 @@ RUN mkdir -p resources/models/
 RUN wget "https://github.com/raidionics/Raidionics-models/releases/download/1.2.0/Raidionics-MRI_Brain-ONNX-v12.zip" && \
     unzip "Raidionics-MRI_Brain-ONNX-v12.zip" && mv MRI_Brain/ resources/models/MRI_Brain/
 RUN wget "https://github.com/raidionics/Raidionics-models/releases/download/1.2.0/Raidionics-MRI_GBM-ONNX-v12.zip" && \
-    unzip "Raidionics-MRI_GBM-ONNX-v12.zip" && mv MRI_GBM/ resources/models/MRI_GBM/ \
+    unzip "Raidionics-MRI_GBM-ONNX-v12.zip" && mv MRI_GBM/ resources/models/MRI_GBM/
 RUN wget "https://github.com/raidionics/Raidionics-models/releases/download/1.2.0/Raidionics-MRI_LGGlioma-ONNX-v12.zip" && \
-    unzip "Raidionics-MRI_LGGlioma-ONNX-v12.zip" && mv MRI_LGGlioma/ resources/models/MRI_LGGlioma/ \
+    unzip "Raidionics-MRI_LGGlioma-ONNX-v12.zip" && mv MRI_LGGlioma/ resources/models/MRI_LGGlioma/
 RUN wget "https://github.com/raidionics/Raidionics-models/releases/download/1.2.0/Raidionics-MRI_Meningioma-ONNX-v12.zip" && \
     unzip "Raidionics-MRI_Meningioma-ONNX-v12.zip" && mv MRI_Meningioma/ resources/models/MRI_Meningioma/
 RUN wget "https://github.com/raidionics/Raidionics-models/releases/download/1.2.0/Raidionics-MRI_Metastasis-ONNX-v12.zip" && \
